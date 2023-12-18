@@ -11,7 +11,10 @@ import { Footer } from './Components/Footer/Footer';
 import women_banner from './Components/Assets/img/women_banner.jpg'
 import men_banner from './Components/Assets/img/mens_banner.jpg'
 import kid_banner from './Components/Assets/img/kid_banner.jpg'
-import all_product from './Components/Assets/AllProduct';
+import { Login } from './Pages/Login';
+import { ToastContainer } from 'react-toastify';
+
+
 
 
 
@@ -21,6 +24,7 @@ import all_product from './Components/Assets/AllProduct';
 function App() {
   return (
     <div>
+      <ToastContainer theme='colored'></ToastContainer>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -31,8 +35,9 @@ function App() {
           <Route path='/product' element={<Product />}>
             <Route path=':productId' element={<Product />} />
           </Route>
-          <Route path='cart' element={<Cart />} />
-          <Route path=':login' element={<LoginSignup />} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path=':signup' element={<LoginSignup />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>

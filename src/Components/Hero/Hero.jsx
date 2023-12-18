@@ -2,6 +2,8 @@ import React from 'react'
 import './Hero.css'
 import hand_icon from '../Assets/img/handIcon.png'
 import hero_image from '../Assets/img/womenHeroImg.png'
+import { motion } from 'framer-motion'
+
 
 const Hero = () => {
   return (
@@ -11,7 +13,16 @@ const Hero = () => {
             <div>
                 <div className='hand-hand-icon'>
                     <p>New</p>
-                    <img src={hand_icon} alt="" width={200}/>
+                    <motion.img src={hand_icon} alt="" width={200} 
+                        initial={{ scale: 0 }}
+                        animate={{ rotate: 360, scale: 1 }}
+                        transition={{
+                            type: "spring",
+                            stiffness: 260,
+                            damping: 20
+                        }}
+                    />
+                    
                 </div>
                 <p>Collection</p>
                 <p>for everyone</p>
