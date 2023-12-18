@@ -7,9 +7,11 @@ const all_product = [
       "category": "womens",
       "image": require("./img/product-image/Img1-c.jpg"),
       "rating": {
-        rate: 3.9,
-        count: 120
-      }
+        "rate": 3.9,
+        "count": 120
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 2,
@@ -21,7 +23,9 @@ const all_product = [
       "rating": {
         "rate": 4.1,
         "count": 259
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 3,
@@ -33,7 +37,9 @@ const all_product = [
       "rating": {
         "rate": 4.7,
         "count": 500
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 4,
@@ -45,7 +51,9 @@ const all_product = [
       "rating": {
         "rate": 2.1,
         "count": 430
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 5,
@@ -57,7 +65,9 @@ const all_product = [
       "rating": {
         "rate": 4.6,
         "count": 400
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 6,
@@ -69,7 +79,9 @@ const all_product = [
       "rating": {
         "rate": 3.9,
         "count": 70
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 7,
@@ -81,7 +93,9 @@ const all_product = [
       "rating": {
         "rate": 3,
         "count": 400
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 8,
@@ -93,7 +107,9 @@ const all_product = [
       "rating": {
         "rate": 1.9,
         "count": 100
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 9,
@@ -105,7 +121,9 @@ const all_product = [
       "rating": {
         "rate": 3.3,
         "count": 203
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 10,
@@ -117,7 +135,9 @@ const all_product = [
       "rating": {
         "rate": 2.9,
         "count": 470
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 11,
@@ -129,7 +149,9 @@ const all_product = [
       "rating": {
         "rate": 4.8,
         "count": 319
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 12,
@@ -141,7 +163,9 @@ const all_product = [
       "rating": {
         "rate": 4.8,
         "count": 400
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 13,
@@ -153,7 +177,9 @@ const all_product = [
       "rating": {
         "rate": 2.9,
         "count": 250
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 14,
@@ -165,7 +191,9 @@ const all_product = [
       "rating": {
         "rate": 2.2,
         "count": 140
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 15,
@@ -177,7 +205,9 @@ const all_product = [
       "rating": {
         "rate": 2.6,
         "count": 235
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 16,
@@ -189,7 +219,9 @@ const all_product = [
       "rating": {
         "rate": 2.9,
         "count": 340
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 17,
@@ -201,7 +233,9 @@ const all_product = [
       "rating": {
         "rate": 3.8,
         "count": 679
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 18,
@@ -213,7 +247,9 @@ const all_product = [
       "rating": {
         "rate": 4.7,
         "count": 130
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 19,
@@ -225,7 +261,9 @@ const all_product = [
       "rating": {
         "rate": 4.5,
         "count": 146
-      }
+      },
+      "new_price":500,
+      "old_price":900
     },
     {
       "id": 20,
@@ -237,7 +275,9 @@ const all_product = [
       "rating": {
         "rate": 3.6,
         "count": 145
-      }
+      },
+      "new_price":500,
+      "old_price":900
     }
   ]
 
